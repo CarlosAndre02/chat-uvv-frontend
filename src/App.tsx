@@ -1,7 +1,11 @@
-function App() {
-  return (
-    <h1>Hello world</h1>
-  )
-}
+import { Heading } from "@chakra-ui/react";
 
-export default App
+import { Providers } from "./providers";
+
+export function App() {
+  return (
+    <Providers>
+      <Heading as="h1">Hello world</Heading>
+    </Providers>
+  );
+}
