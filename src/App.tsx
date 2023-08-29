@@ -1,11 +1,10 @@
-import { Heading } from "@chakra-ui/react";
-
 import { Providers } from "./providers";
+import { AppRoutes } from "./routes/Routes";
 
 export function App() {
   return (
     <Providers>
-      <Heading as="h1">Hello world</Heading>
+      <AppRoutes></AppRoutes>
     </Providers>
   );
 }
